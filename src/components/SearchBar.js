@@ -7,7 +7,7 @@ const SearchBar = (props) =>{
                 <section className="col s6 offset-s4">
                     <form action="" onSubmit= {props.handleSubmit}>
                         <div className= 'input-field'>
-                            <input placeholder="search for movies" type="text" onChange={props.handleChange}></input>
+                            <input placeholder="search for movies" type="text" onChange= {props.handleChange}></input>
                         </div>
                     </form>
 
